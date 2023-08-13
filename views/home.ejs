@@ -1,0 +1,8 @@
+<%- include('layout') %>
+
+<h2>Movie List</h2>
+<ul>
+    <% movies.forEach(movie => { %>
+        <li><strong><%= movie.title %></strong> - <%= movie.ticketPrice %> USD</li>
+    <% }); %>
+</ul>

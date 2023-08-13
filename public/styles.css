@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Movie list styles */
+ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.auth-button {
+    margin-left: auto;
+}
+
+.auth-button a {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.auth-button a:hover {
+    background-color: #555;
+}
